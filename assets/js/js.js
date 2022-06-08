@@ -42,7 +42,7 @@ function putImg(){
     $.get('assets/img',{},function(content){
         let ArrImg = [];
         let lines=content.split('\n');
-    
+        consloe.log(content);
         for(let i=11;i<lines.length;i++){
             if(true){
                 let text = lines[i]
