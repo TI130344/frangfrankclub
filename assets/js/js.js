@@ -42,7 +42,7 @@ function putImg(){
     $.get('assets/img',{},function(content){
         let ArrImg = [];
         let lines=content.split('\n');
-    
+        console.log(content);
         for(let i=11;i<lines.length;i++){
             if(true){
                 let text = lines[i]
@@ -68,7 +68,7 @@ function ShowImg(array){
         $('.list-img[img="'+i+'"]').css('background-image','url(assets/img/'+array[i]);
     }
 }
-*/
+
 function reqListener () {
     console.log(this.responseText);
   }
