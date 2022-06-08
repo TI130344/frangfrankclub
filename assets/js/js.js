@@ -111,4 +111,4 @@ var xhttp = new XMLHttpRequest();
   };
   xhttp.open("GET", 'assets/img', true);
 
-console.log(xhr.send());
+console.log(xhttp.send());
