@@ -39,7 +39,7 @@ function hidden(el){
 /* Import all img for Javascript */
 
 function putImg(){
-    $.get('assets/img',{},function(content){
+    $.get('assets/img/',{},function(content){
         let ArrImg = [];
         let lines=content.split('\n');
         console.log(content);
