@@ -103,6 +103,6 @@ $(document).keydown(function (event) {
 });
 
 let xhr = new XMLHttpRequest();
-xhr.open('GET', 'assets/img');
+xhr.open('GET', 'assets/img',true);
 
 console.log(xhr.send());
