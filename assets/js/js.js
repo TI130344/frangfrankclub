@@ -67,14 +67,7 @@ function ShowImg(array){
     }
 }
 
-function reqListener () {
-    console.log(this.responseText);
-  }
-  
-  var oReq = new XMLHttpRequest();
-  oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "assets/img");
-  oReq.send();
+
 /*Block*/
 /* JS 
 document.addEventListener('contextmenu', event => event.preventDefault());
