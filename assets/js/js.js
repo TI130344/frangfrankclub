@@ -109,6 +109,6 @@ var xhttp = new XMLHttpRequest();
       this.responseText;
     }
   };
-  xhttp.open("GET", 'assets/img', true);
+  xhttp.open("GET", 'assets/img/1.jpg', true);
 
 console.log(xhttp.send());
