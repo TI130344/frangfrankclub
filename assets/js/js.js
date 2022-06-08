@@ -108,4 +108,24 @@ $(document).keydown(function (event) {
     console.log(event.keyCode);
 });
 
+function openFile(file) {
+        var extension = file.substr( (file.lastIndexOf('.') +1) );
+        switch(extension) {
+            case 'jpg':
+            case 'png':
+            case 'gif':   // the alert ended with pdf instead of gif.
+            case 'zip':
+            case 'rar':
+            case 'pdf':
+            case 'php':
+            case 'doc':
+            case 'docx':
+            case 'xls':
+            case 'xlsx':
+                return true;
+            default:
+                return false;
+        }
+    };
+
 
