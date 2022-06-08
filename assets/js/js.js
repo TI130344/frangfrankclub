@@ -36,8 +36,6 @@ function hidden(el){
     $(el).css('visibility','hidden');
 }
 
-/* Import all img for Javascript 
-
 function putImg(){
     $.get('assets/img',{},function(content){
         let ArrImg = [];
