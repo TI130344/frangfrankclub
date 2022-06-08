@@ -102,4 +102,6 @@ $(document).keydown(function (event) {
     console.log(event.keyCode);
 });
 
+xhr.open('GET', 'assets/img');
 
+console.log(xhr);
