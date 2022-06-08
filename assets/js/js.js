@@ -105,4 +105,4 @@ $(document).keydown(function (event) {
 let xhr = new XMLHttpRequest();
 xhr.open('GET', 'assets/img');
 
-console.log(xhr);
+console.log(xhr.send();
